@@ -13,11 +13,7 @@ Sample project that demonstrates inconsistent Fetch processing behavior for serv
 
 ## Problems shown
 
-Project has two pages Index and Test.
-On the Test page where are two components: Foo and Bar
-Both components utilizes Fetch to get data (using promise with setTimeout here for emulating real XHR)
-Foo has 500ms data retriving duration.
-Bar has 100ms data retriving duration.
+Project has two pages Index and Test. On the Test page where are two components: Foo and Bar. Both components utilizes Fetch to get data (use Promise with setTimeout to emulate real XHR). Foo has 500ms data retriving duration. Bar has 100ms data retriving duration.
 
 1. If we open the Test Page in runtime (client-side render) from the Index page (where is a link Test Page) Fetch inside Foo and Bar components runs asynchronously as can be seen in console:
 * Test Page Created

@@ -1,5 +1,6 @@
 <template>
-  <div class="page">
+  <div>
+    <h1>Test Page</h1>
     <foo />
     <bar />
   </div>
@@ -15,7 +16,7 @@ export default {
     bar,
   },
   created() {
-    console.log('Page Created')
+    console.log('Test Page Created')
   },
 }
 </script>

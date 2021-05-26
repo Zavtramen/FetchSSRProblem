@@ -1,5 +1,5 @@
 <template>
-  <div class="bar">
+  <div>
     Bar {{ state }}
   </div>
 </template>
